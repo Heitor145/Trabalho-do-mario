@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  background: #c8b79f; /* cor do fundo da imagem */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 480px;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.tabs {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.tabs span {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.tabs .inactive {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+}
+
+.tabs .active {
+  font-weight: bold;
+  color: #777;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.rules {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.rules ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: #003b46;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.entrar{
+  text-align: center;
+  width: 140px;
+  display: block;
+  margin: 10px auto;
+  padding: 14px;
+  background: #003b46;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.entrar:hover {
+  opacity: 0.9;
+}
